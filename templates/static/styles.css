@@ -74,8 +74,9 @@ h3 {
 }
 .dropdown{
   margin-top: 0.5rem;
-
-
+}
+.dropdown-menu{
+  background-color: #191A19;
 }
 /* Footer */
 #footer{
@@ -109,6 +110,11 @@ h3 {
   background-color:#191A19;
   color: #ffff;
 }
+.dropdown-item:hover{
+  background-color: #AAD8D3;
+}
+
+
 .form-box {
 	background-color: rgba(0, 0, 0, 0.5);
 	margin: auto auto;
@@ -186,15 +192,23 @@ h3 {
 	margin: 20px 0px;
 }
 
-/* login body */
-* {
-	box-sizing: border-box;
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
 }
-#loginat{
-	 font-family: 'Montserrat', sans-serif;
-	 font-size: 16px;
-	 color: #fff;
-}
-#loginname{
-  color: #fff;
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
 }

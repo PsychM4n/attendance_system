@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="static/styles.css">
 
   <script src="https://kit.fontawesome.com/0c15a58976.js" crossorigin="anonymous"></script>
 </head>
@@ -37,8 +37,13 @@
               padding-left: 20px;">Student</a>
           </li>
             <li calss="nav-item">
-              <a class="nav-link" href="" style="padding-right: 20px;
-                padding-left: 20px;">Register</a>
+              <div id="dropdown1" class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="student-register.html">Register Student</a>
+                  <a class="dropdown-item" href="teacher-register.html">Register Teacher</a>
+              </div>
+              </div>
             </li>
           <li calss="nav-item">
             <div id="dropdown1" class="dropdown">
