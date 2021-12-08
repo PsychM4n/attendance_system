@@ -1,0 +1,107 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-image: url("https://designmodo.com/wp-content/uploads/2017/08/gradient-1.jpg");
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.row{
+  background-color: #393E46;
+  padding: 3%;
+}
+
+/* navbar */
+.navbar {
+  background-color: #191A19;
+  padding: 0.8rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #7C83FD;
+  font-size: 2.5rem;
+}
+#heading{
+  color: #BBBBBB;
+}
+.nav-item {
+  padding: 0 125%;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+
+.row{
+  background: rgba(0, 0, 0, 0);
+  padding: 10%;
+}
+
+.login-buttons{
+  padding: 14px;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+.dropdown{
+  margin-top: 0.5rem;
+
+
+}
+/* Footer */
+#footer{
+  margin: 0;
+  text-align: center;
+  background-color: #393E46;
+}
+.fa-2x{
+  padding-bottom: 2%;
+  padding-right: 1%;
+  color: #D8E3E7;
+}
+.fa-2x:hover{
+  color: #AAD8D3;
+}
+.contact{
+  padding-top: 3%;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.btn-secondary {
+  background-color:#191A19;
+  border-color: #191A19;
+  color: rgba(255,255,255,.5);
+  font-family: "Montserrat",sans-serif;
+  font-size: 22px;
+  padding: 0 12px;
+}
